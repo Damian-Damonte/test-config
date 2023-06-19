@@ -11,6 +11,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create-drop
+  sleuth:
+    enabled: true
+
 
 eureka:
   instance:
